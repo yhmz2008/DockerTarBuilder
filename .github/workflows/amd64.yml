@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       docker_images:
-        description: 'cloudnas/clouddrive2-unstable'
+        description: 'cloudnas/clouddrive2-unstable:0.8.0-beta3'
         required: true
         default: 'alpine:latest'  # 设置默认的 Docker 镜像列表
 
