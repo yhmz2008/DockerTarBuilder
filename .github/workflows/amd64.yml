@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       docker_images:
-        description: 'sha256:61098e04df14ab48596a073ad0a09fcca6493c3fb72fe92399087a4a6ed9bbf2'
+        description: '61098e04df14ab48596a073ad0a09fcca6493c3fb72fe92399087a4a6ed9bbf2'
         required: true
         default: 'alpine:latest'  # 设置默认的 Docker 镜像列表
 
